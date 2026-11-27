@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- ClearPath app state lives in React state + localStorage (cp_users, cp_session, cp_lang); no backend — hackathon brief asked for self-contained.
+- UI strings for the language switcher live in src/components/clearpath/i18n.ts; add keys for all 4 languages together.
